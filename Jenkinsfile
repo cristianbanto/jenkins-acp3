@@ -12,6 +12,7 @@ stages{
       sh 'terraform plan'
       sh 'terraform apply -auto-approve'
     }
+    }  
   }
   
   }
