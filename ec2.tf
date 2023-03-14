@@ -4,6 +4,7 @@ provider "aws" {
     duration_seconds = 3600
     session_name = "session-name"
     role_arn = arn:aws:iam::985536073477:role/jenkins-role
+    
   }  
 }
 
